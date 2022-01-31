@@ -129,6 +129,7 @@
   }
 
   .status-bar{
+    background: rgba(87, 101, 116,1);
     padding: 6% 2%;
   }
 
@@ -141,7 +142,7 @@
   }
 
   .container{
-    margin-top: 8%;
+    margin-top: 2%;
   }
 
   .container h1{
@@ -170,8 +171,8 @@
 
   .output-window h3{
     margin: 0;
-    padding: 0;
-    width: 100%;
+    padding: 1% 0;
+    width: 90%;
     font-size: 20px;
   }
 
@@ -189,6 +190,8 @@
 
   .status-bar{
     padding: 3% 6%;
+    background: rgba(87, 101, 116,0.6);
+
   }
 
   .status-bar h2{
@@ -200,7 +203,7 @@
   }
 
   .container h1{
-    margin-top: 4%;
+    margin-top: 2%;
     padding: 0 2%;
   }
 
