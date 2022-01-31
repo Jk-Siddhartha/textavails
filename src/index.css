@@ -114,11 +114,127 @@
 }
 
 .copy{
-  position: absolute;
-  margin-left: 2%;
+  margin-left: 5%;
   display: none;
-  right: 2%;
-  bottom: 20%;
   padding: 0.5% 1%;
   text-transform: uppercase;
+  width: 8%;
 }
+
+
+@media screen and (max-width:480px) {
+
+  .App{
+    gap: 0.5rem;
+  }
+
+  .status-bar{
+    padding: 6% 2%;
+  }
+
+  .status-bar h2{
+    font-size: 15px;
+  }
+
+  .status-bar h3{
+    font-size: 13px;
+  }
+
+  .container{
+    margin-top: 8%;
+  }
+
+  .container h1{
+    font-size: 25px;
+    padding: 1% 6%;
+  }
+
+  .container textarea{
+    width: 80%;
+    height: 50%;
+  }
+
+  .btns{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 0% 8%;
+    gap: 0.3rem;
+  }
+
+  .btn{
+    /* width: 60%; */
+    padding: 4% 6%;
+  }
+
+  .output-window h3{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .copy{
+    width: 20%;
+    padding: 1% 1.5%;
+  }
+}
+
+
+@media screen and (min-width: 481px) and (max-width:1024px) {
+  .App{
+    gap: 1rem;
+  }
+
+  .status-bar{
+    padding: 3% 6%;
+  }
+
+  .status-bar h2{
+    font-size: 30px;
+  }
+
+  .status-bar h3{
+    font-size: 25px;
+  }
+
+  .container h1{
+    margin-top: 4%;
+    padding: 0 2%;
+  }
+
+  .container textarea{
+    width: 90%;
+    font-size: 18px;
+  }
+
+  .btns{
+    padding: 0% 3.5%;
+  }
+
+  .btn{
+    padding: 1.8% 5%;
+    font-size: 20px;
+    margin: 1%;
+  }
+
+  .output-window h3{
+    font-size: 25px;
+    width: 100%;
+  }
+
+  .output-window p{
+    font-size: 20px;
+  }
+
+  .copy{
+    width: 15%;
+    text-align: center;
+    padding: 1% 1.2%;
+    margin-left: 5%;
+  }
+
+}
+
